@@ -12,8 +12,49 @@ Exécutez le script `Binomiale_simulation.r`. Dans la console il y aura bien une
 
 ### Loi géométrique de paramètre p
 
-Exécutez le script `Geometrique_simulation.r`. Dans la console il y aura bien une suite de variables aléatoires de valeurs positives.
+Exécutez le script `Geometrique_simulation.r`.
 
 ### Loi uniforme sur [-1;1]
 
 Exécutez le script `Uniforme_simulation.r`. Voici les graphiques obtenus :
+<p align="center"><img src="images/Uniforme_n_100.PNG" height="250">  <img src="images/Uniforme_n_100000.PNG" height="250"></p>
+On peut observer que plus n est grand, plus on se rapproche de la densité.
+
+## Simulation de variables aléatoires réelles par inversion
+
+### Loi de bernoulli de paramètre p
+
+Exécutez le script `Bernoulli_inversion.r`. Dans la console il y aura bien une variable aléatoire valant 0 ou 1.
+
+### Loi gémoétrique de paramètre p
+
+Exécutez le script `Geometrique_inversion.r`. Voici le graphique obtenu :
+<p align="center"><img src="images/Geometrique_inversion.PNG" height="250"></p>
+
+### Loi de poisson de paramètre λ
+
+Exécutez le script `Poisson_inversion.r`.
+
+### Loi exponentielle de paramètre λ
+
+Exécutez le script `Exponentielle_inversion.r`. Voici le graphique obtenu :
+<p align="center"><img src="images/Exponentielle_inversion.PNG" height="250"></p>
+
+## Lois des grands nombres
+
+### Loi uniforme sur [0;1]
+
+Exécutez le script `LGN_uniforme.r`. Voici le graphique obtenu :
+<p align="center"><img src="images/LGN_uniforme.PNG" height="250"></p>
+La suite des moyennes empiriques semble converger vers l'espérance des X_k.
+
+### Loi exponentielle
+
+Exécutez le script `LGN_exponentielle.r`. Voici le graphique obtenu :
+<p align="center"><img src="images/LGN_exponentielle.PNG" height="250"></p>
+La suite des moyennes empiriques semble converger vers l'espérance des X_k.
+
+
+
+
+
