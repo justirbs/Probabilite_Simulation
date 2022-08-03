@@ -54,7 +54,35 @@ Exécutez le script `LGN_exponentielle.r`. Voici le graphique obtenu :
 <p align="center"><img src="images/LGN_exponentielle.PNG" height="250"></p>
 La suite des moyennes empiriques semble converger vers l'espérance des X_k.
 
+## Théorème Central Limite
 
+### Convergence de Zn avec Xn qui suit une loi uniforme sur [0;1]
 
+Exécutez le script `TCL_uniforme.r`. Voici le graphique obtenu :
+<p align="center"><img src="images/TCL_uniforme.PNG" height="250"></p>
 
+### Convergence en loi de Zn avec Xn qui suit une loi uniforme sur [0;1]
 
+Exécutez le script `TCL_loi_uniforme.r`. Voici le graphique obtenu :
+<p align="center"><img src="images/TCL_loi_uniforme.PNG" height="250"></p>
+
+On remarque que Zn converge en loi vers variable qui suit une loi Normale de paramètre (0;1). Ce qui correspond bien au théorème de la limite centrale.
+
+### Convergence de Zn avec Xn qui suit une loi exponentielle sur [0;1]
+
+Exécutez le script `TCL_exponentielle.r`. Voici le graphique obtenu :
+<p align="center"><img src="images/TCL_exponentielle.PNG" height="250"></p>
+
+### Convergence en loi de Zn avec Xn qui suit une loi exponentielle sur [0;1]
+
+Exécutez le script `TCL_loi_exponentielle.r`. Voici le graphique obtenu :
+<p align="center"><img src="images/TCL_loi_exponentielle.PNG" height="250"></p>
+
+On remarque que Zn converge en loi vers variable qui suit une loi Normale de paramètre (0;1). Ce qui correspond bien au théorème de la limite centrale.
+
+## Méthode de Box-Muller
+
+Exécutez le script `Box_muller.r`. Voici le graphique obtenu :
+<p align="center"><img src="images/Box_muller.PNG" height="250"></p>
+
+On remarque également qu’il y a convergence vers la loi Normale de paramètres (0;1)
